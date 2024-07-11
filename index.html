@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+      }
+      .navbar {
+        background-color: #a2d5c6;
+      }
+      .navbar-brand,
+      .navbar-nav .nav-link {
+        color: #fff;
+      }
+      .jumbotron {
+        background-color: #e5e5e5;
+        color: #5a5a5a;
+      }
+      .section-title {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: #5a5a5a;
+      }
+      .services .card,
+      .programs .card {
+        background-color: #f0ece3;
+      }
+      .card-title,
+      .card-text {
+        color: #5a5a5a;
+      }
+      .footer {
+        background-color: #a2d5c6;
+        color: #fff;
+        padding: 20px 0;
+      }
+      .footer a {
+        color: #fff;
+      }
+      .icon {
+        font-size: 50px;
+        color: #a2d5c6;
+      }
+      #map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">Company</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#programs">Program</a></li>
+          <li class="nav-item"><a class="nav-link" href="#why-us">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimoni</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#partners">Our Partner</a></li>
+          <li class="nav-item"><a class="nav-link" href="#register">Pendaftaran</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+      <h1 class="display-4">EffortLearn Learn</h1>
+      <p class="lead">Learn Easily, Grow Wisely</p>
+    </div>
+
+    <section id="about" class="container">
+      <h2 class="section-title">About Us</h2>
+      <p>
+        Solusi belajar terbaik di Jabodetabek. Temukan mentor berkualitas untuk semua tingkatan pendidikan. Kursus yang lengkap dari mengajar hingga menyelesaikan tugas akademik, dengan akses mudah, konsultasi 24 jam, dan promo menarik.
+        Prioritaskan kenyamanan dan hasil belajar optimal bersama EffortLearn.
+      </p>
+    </section>
+
+    <section id="visi-misi" class="container">
+      <h2 class="section-title">Visi dan Misi</h2>
+      <p>
+        Visi Menjadi platform terkemuka yang mendorong transformasi pendidikan dengan menyediakan akses mudah dan berkualitas tinggi terhadap layanan pengajaran personal yang memotivasi setiap pelajar untuk mencapai potensi maksimal mereka.
+      </p>
+      <p>Misi kami:</p>
+      <p>1.Memberikan solusi bagi orang tua yang sibuk dengan menyediakan guru les berkualitas di rumah untuk semua jenjang pendidikan.</p>
+      <p>2.Membantu menghilangkan budaya malas dan meningkatkan motivasi belajar di kalangan pelajar dengan pendekatan personal.</p>
+      <p>3.Menyediakan layanan konsultasi 24 jam untuk mendukung proses belajar mengajar.</p>
+      <p>4.Mengembangkan komunitas belajar yang inklusif dan mendukung antara pelajar, orang tua, dan pengajar.</p>
+      <p>5.Menjamin kualitas dengan menyediakan fitur review dan asuransi kesehatan untuk semua mentor atau guru les.</p>
+      <p>6.Menghadirkan inovasi dalam pembelajaran dengan jadwal mengajar yang fleksibel dan harga bundling yang terjangkau.</p>
+    </section>
+
+    <section id="services" class="container">
+      <h2 class="section-title">Layanan</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?service" class="card-img-top" alt="Service Image" />
+            <div class="card-body">
+              <h5 class="card-title">Les Anak</h5>
+            </div>
+          </div>
+        </div>
+        <!-- Tambahkan 4 layanan lagi dengan format yang sama -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?service" class="card-img-top" alt="Service Image" />
+            <div class="card-body">
+              <h5 class="card-title">SD SMP SMA</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?service" class="card-img-top" alt="Service Image" />
+            <div class="card-body">
+              <h5 class="card-title">Mahasiswa</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?service" class="card-img-top" alt="Service Image" />
+            <div class="card-body">
+              <h5 class="card-title">Musik dan Seni</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?service" class="card-img-top" alt="Service Image" />
+            <div class="card-body">
+              <h5 class="card-title">Bahasa</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="programs" class="container">
+      <h2 class="section-title">Program</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?education" class="card-img-top" alt="Program Image" />
+            <div class="card-body">
+              <h5 class="card-title">Privat Tatap Muka</h5>
+              <p class="card-text">Kursus tatap muka mentor ke tempat pembelajaran.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?online" class="card-img-top" alt="Program Image" />
+            <div class="card-body">
+              <h5 class="card-title">Privat Online</h5>
+              <p class="card-text">Kursus bersama mentor melalui platform online.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?group" class="card-img-top" alt="Program Image" />
+            <div class="card-body">
+              <h5 class="card-title">Diskusi Grup</h5>
+              <p class="card-text">Diskusi 2-5 peserta di tempat yang ditentukan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="container">
+      <h2 class="section-title">Why Us</h2>
+      <p>EffortLearn menawarkan kemudahan dalam belajar dengan menyediakan mentor berkualitas yang siap membantu Anda kapan saja.</p>
+      <p>Dengan berbagai pilihan layanan dan program, kami berkomitmen untuk mendukung kesuksesan pendidikan Anda.</p>
+    </section>
+
+    <section id="testimonials" class="container">
+      <h2 class="section-title">Testimoni</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>"EffortLearn sangat membantu dalam meningkatkan prestasi belajar anak saya."</p>
+                <footer class="blockquote-footer">Orang Tua Siswa</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>"Program diskusi grupnya sangat efektif untuk belajar bersama teman-teman."</p>
+                <footer class="blockquote-footer">Mahasiswa</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="container">
+      <h2 class="section-title">FAQ</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="card">
+          <div class="card-header" id="faqHeading1">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">Apakah layanan EffortLearn tersedia di luar Jabodetabek?</button>
+            </h5>
+          </div>
+          <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+            <div class="card-body">Saat ini layanan EffortLearn hanya tersedia di wilayah Jabodetabek.</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="faqHeading2">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">Bagaimana cara mendaftar sebagai mentor di EffortLearn?</button>
+            </h5>
+          </div>
+          <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+            <div class="card-body">Anda dapat mendaftar sebagai mentor melalui formulir pendaftaran di situs web kami.</div>
+          </div>
+        </div>
+        <!-- Tambahkan lebih banyak FAQ jika diperlukan -->
+      </div>
+    </section>
+
+    <section id="partners" class="container">
+      <h2 class="section-title">Our Partners</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="https://source.unsplash.com/300x200/?partner1" class="img-fluid" alt="Partner 1" />
+        </div>
+        <div class="col-md-3">
+          <img src="https://source.unsplash.com/300x200/?partner2" class="img-fluid" alt="Partner 2" />
+        </div>
+        <div class="col-md-3">
+          <img src="https://source.unsplash.com/300x200/?partner3" class="img-fluid" alt="Partner 3" />
+        </div>
+        <div class="col-md-3">
+          <img src="https://source.unsplash.com/300x200/?partner4" class="img-fluid" alt="Partner 4" />
+        </div>
+      </div>
+    </section>
+
+    <section id="register" class="container">
+      <h2 class="section-title">Pendaftaran</h2>
+      <form id="registerForm" action="#" method="post">
+        <div class="form-group">
+          <label for="name">Nama:</label>
+          <input type="text" class="form-control" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="service">Layanan:</label>
+          <select class="form-control" id="service" name="service" required>
+            <option value="les-anak">Les Anak</option>
+            <option value="sd-smp-sma">SD SMP SMA</option>
+            <option value="mahasiswa">Mahasiswa</option>
+            <option value="musik-dan-seni">Musik dan Seni</option>
+            <option value="bahasa">Bahasa</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Daftar</button>
+      </form>
+    </section>
+
+    <section id="map" class="container">
+      <h2 class="section-title">Lokasi Kami</h2>
+      <div id="map"></div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2 class="section-title">Kontak</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fas fa-phone icon"></i>
+          <p>+62 123 456 789</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-envelope icon"></i>
+          <p>info@company.com</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-map-marker-alt icon"></i>
+          <p>Jalan Kebon Jeruk Raya No. 123, Jakarta</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer text-center">
+      <p>&copy; 2024 Company. All Rights Reserved.</p>
+      <p>
+        Follow us on <a href="#"><i class="fab fa-facebook"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a>
+      </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script>
+      function initMap() {
+        var location = { lat: -6.2, lng: 106.816666 };
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15,
+          center: location,
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map,
+        });
+      }
+
+      document.getElementById("registerForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+        alert("Pendaftaran berhasil!");
+      });
+    </script>
+  </body>
+</html>
