@@ -9,35 +9,51 @@
     <style>
       body {
         font-family: Arial, sans-serif;
-        background-color: #f7f7f7;
+        background-color: #e5e5e5;
       }
       .navbar {
-        background-color: #a2d5c6;
+        background-color: #6db3f2;
       }
       .navbar-brand,
       .navbar-nav .nav-link {
         color: #fff;
       }
       .jumbotron {
-        background-color: #e5e5e5;
-        color: #5a5a5a;
+        background: url("/background.jpg") no-repeat center center;
+        background-size: cover;
+        color: #fff;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .jumbotron h1,
+      .jumbotron p {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
       }
       .section-title {
         text-align: center;
         margin-top: 40px;
         margin-bottom: 20px;
-        color: #5a5a5a;
+        color: #333;
       }
       .services .card,
       .programs .card {
-        background-color: #f0ece3;
+        background-color: #f0f0f0;
+        height: 100%;
+      }
+      .uniform-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
       }
       .card-title,
       .card-text {
-        color: #5a5a5a;
+        color: #333;
       }
       .footer {
-        background-color: #a2d5c6;
+        background-color: #6db3f2;
         color: #fff;
         padding: 20px 0;
       }
@@ -46,7 +62,7 @@
       }
       .icon {
         font-size: 50px;
-        color: #a2d5c6;
+        color: #6db3f2;
       }
       #map {
         height: 400px;
@@ -65,6 +81,7 @@
           <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Layanan</a></li>
           <li class="nav-item"><a class="nav-link" href="#programs">Program</a></li>
+          <li class="nav-item"><a class="nav-link" href="#paket">Paket</a></li>
           <li class="nav-item"><a class="nav-link" href="#why-us">Why Us</a></li>
           <li class="nav-item"><a class="nav-link" href="#testimonials">Testimoni</a></li>
           <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
@@ -76,7 +93,7 @@
     </nav>
 
     <div class="jumbotron text-center">
-      <h1 class="display-4">EffortLearn Learn</h1>
+      <h1 class="display-4">EffortLearn</h1>
       <p class="lead">Learn Easily, Grow Wisely</p>
     </div>
 
@@ -107,7 +124,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="https://source.unsplash.com/1600x900/?service" class="card-img-top" alt="Service Image" />
+            <img src="/anakkecik.jpg" class="card-img-top" alt="Service Image" />
             <div class="card-body">
               <h5 class="card-title">Les Anak</h5>
             </div>
@@ -116,7 +133,7 @@
         <!-- Tambahkan 4 layanan lagi dengan format yang sama -->
         <div class="col-md-4">
           <div class="card">
-            <img src="https://source.unsplash.com/1600x900/?service" class="card-img-top" alt="Service Image" />
+            <img src="/universitas.png" class="card-img-top" alt="Service Image" />
             <div class="card-body">
               <h5 class="card-title">SD SMP SMA</h5>
             </div>
@@ -124,7 +141,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://source.unsplash.com/1600x900/?service" class="card-img-top" alt="Service Image" />
+            <img src="/mahasiswa.png" class="card-img-top" alt="Service Image" />
             <div class="card-body">
               <h5 class="card-title">Mahasiswa</h5>
             </div>
@@ -132,7 +149,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://source.unsplash.com/1600x900/?service" class="card-img-top" alt="Service Image" />
+            <img src="musik.png" class="card-img-top" alt="Service Image" />
             <div class="card-body">
               <h5 class="card-title">Musik dan Seni</h5>
             </div>
@@ -140,7 +157,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://source.unsplash.com/1600x900/?service" class="card-img-top" alt="Service Image" />
+            <img src="/bahasa,A.png" class="card-img-top" alt="Service Image" />
             <div class="card-body">
               <h5 class="card-title">Bahasa</h5>
             </div>
@@ -154,7 +171,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="https://source.unsplash.com/1600x900/?education" class="card-img-top" alt="Program Image" />
+            <img src="https://png.pngtree.com/png-vector/20200706/ourlarge/pngtree-meeting-of-people-face-to-face-for-consultation-job-interview-concept-png-image_2302226.jpg" class="card-img-top" alt="Program Image" />
             <div class="card-body">
               <h5 class="card-title">Privat Tatap Muka</h5>
               <p class="card-text">Kursus tatap muka mentor ke tempat pembelajaran.</p>
@@ -163,7 +180,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://source.unsplash.com/1600x900/?online" class="card-img-top" alt="Program Image" />
+            <img src="/private_online-removebg-preview.png" class="card-img-top" alt="Program Image" />
             <div class="card-body">
               <h5 class="card-title">Privat Online</h5>
               <p class="card-text">Kursus bersama mentor melalui platform online.</p>
@@ -172,10 +189,43 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://source.unsplash.com/1600x900/?group" class="card-img-top" alt="Program Image" />
+            <img src="/kelompokbelajar-removebg-preview.png" />
             <div class="card-body">
-              <h5 class="card-title">Diskusi Grup</h5>
-              <p class="card-text">Diskusi 2-5 peserta di tempat yang ditentukan.</p>
+              <h5 class="card-title">Kelompok Belajar</h5>
+              <p class="card-text">Kursus kelompok di tempat yang telah disepakati.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="paket" class="container">
+      <h2 class="section-title">Paket Pembelajaran</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://i.pinimg.com/564x/2a/a5/d0/2aa5d094aa7d2fb9002367a5affa405d.jpg" class="card-img-top uniform-image" alt="Basic Package" />
+            <div class="card-body">
+              <h5 class="card-title">Paket Basic</h5>
+              <p class="card-text">Sesi privat 2x per minggu, konsultasi online 24 jam, akses materi tambahan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIOHLzJK7vdJTBOQjyLxGk9HHyLlqqZFeawAJkW_V-FXMBTvuPzAA6cNW5gjXdQmbEBWk&usqp=CAU" class="card-img-top uniform-image" alt="Standard Package" />
+            <div class="card-body">
+              <h5 class="card-title">Paket Standard</h5>
+              <p class="card-text">Sesi privat 4x per minggu, konsultasi online 24 jam, akses materi tambahan, sesi kelompok 1x per bulan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://www.creativefabrica.com/wp-content/uploads/2019/01/Measurement-icon-by-back1design1.png" class="card-img-top uniform-image" alt="Premium Package" />
+            <div class="card-body">
+              <h5 class="card-title">Paket Premium</h5>
+              <p class="card-text">Sesi privat setiap hari, konsultasi online 24 jam, akses materi tambahan, sesi kelompok 2x per bulan, sesi review bulanan.</p>
             </div>
           </div>
         </div>
@@ -184,30 +234,30 @@
 
     <section id="why-us" class="container">
       <h2 class="section-title">Why Us</h2>
-      <p>EffortLearn menawarkan kemudahan dalam belajar dengan menyediakan mentor berkualitas yang siap membantu Anda kapan saja.</p>
-      <p>Dengan berbagai pilihan layanan dan program, kami berkomitmen untuk mendukung kesuksesan pendidikan Anda.</p>
+      <p>EffortLearn memberikan solusi lengkap dan berkualitas tinggi untuk memenuhi kebutuhan pendidikan Anda.</p>
     </section>
 
     <section id="testimonials" class="container">
       <h2 class="section-title">Testimoni</h2>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <blockquote class="blockquote mb-0">
-                <p>"EffortLearn sangat membantu dalam meningkatkan prestasi belajar anak saya."</p>
-                <footer class="blockquote-footer">Orang Tua Siswa</footer>
-              </blockquote>
+              <p class="card-text">"EffortLearn benar-benar membantu anak saya meningkatkan nilai-nilainya. Guru-gurunya sangat profesional dan berpengalaman." - Budi</p>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <blockquote class="blockquote mb-0">
-                <p>"Program diskusi grupnya sangat efektif untuk belajar bersama teman-teman."</p>
-                <footer class="blockquote-footer">Mahasiswa</footer>
-              </blockquote>
+              <p class="card-text">"Pelayanan yang luar biasa dan fleksibel. Sangat merekomendasikan EffortLearn untuk semua orang tua yang sibuk." - Siti</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">"Anak saya sekarang lebih semangat belajar dan nilainya semakin baik. Terima kasih EffortLearn!" - Joko</p>
             </div>
           </div>
         </div>
@@ -216,125 +266,70 @@
 
     <section id="faq" class="container">
       <h2 class="section-title">FAQ</h2>
-      <div class="accordion" id="faqAccordion">
-        <div class="card">
-          <div class="card-header" id="faqHeading1">
-            <h5 class="mb-0">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">Apakah layanan EffortLearn tersedia di luar Jabodetabek?</button>
-            </h5>
-          </div>
-          <div id="faqCollapse1" class="collapse show" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
-            <div class="card-body">Saat ini layanan EffortLearn hanya tersedia di wilayah Jabodetabek.</div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="faqHeading2">
-            <h5 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">Bagaimana cara mendaftar sebagai mentor di EffortLearn?</button>
-            </h5>
-          </div>
-          <div id="faqCollapse2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
-            <div class="card-body">Anda dapat mendaftar sebagai mentor melalui formulir pendaftaran di situs web kami.</div>
-          </div>
-        </div>
-        <!-- Tambahkan lebih banyak FAQ jika diperlukan -->
-      </div>
+      <p><strong>Q:</strong> Bagaimana cara mendaftar?</p>
+      <p><strong>A:</strong> Klik tombol pendaftaran di halaman ini dan isi formulir yang tersedia.</p>
+      <p><strong>Q:</strong> Apa saja layanan yang tersedia?</p>
+      <p><strong>A:</strong> Kami menyediakan les privat, konsultasi, dan pembelajaran kelompok untuk semua jenjang pendidikan.</p>
     </section>
 
     <section id="partners" class="container">
-      <h2 class="section-title">Our Partners</h2>
+      <h2 class="section-title">Our Partner</h2>
       <div class="row">
-        <div class="col-md-3">
-          <img src="https://source.unsplash.com/300x200/?partner1" class="img-fluid" alt="Partner 1" />
+        <div class="col-md-4">
+          <img src="/Logo_UIN_Syarif_Hidayatullah_Jakarta-removebg-preview.png" class="img-fluid" alt="Partner 1" />
         </div>
-        <div class="col-md-3">
-          <img src="https://source.unsplash.com/300x200/?partner2" class="img-fluid" alt="Partner 2" />
+        <div class="col-md-4">
+          <img src="/logo_Universitas-Muhammadiyah-Jakarta.png" class="img-fluid" alt="Partner 2" />
         </div>
-        <div class="col-md-3">
-          <img src="https://source.unsplash.com/300x200/?partner3" class="img-fluid" alt="Partner 3" />
-        </div>
-        <div class="col-md-3">
-          <img src="https://source.unsplash.com/300x200/?partner4" class="img-fluid" alt="Partner 4" />
+        <div class="col-md-4">
+          <img src="/bri-removebg-preview.png" class="img-fluid" alt="Partner 3" />
         </div>
       </div>
     </section>
 
     <section id="register" class="container">
       <h2 class="section-title">Pendaftaran</h2>
-      <form id="registerForm" action="#" method="post">
+      <form>
         <div class="form-group">
-          <label for="name">Nama:</label>
-          <input type="text" class="form-control" id="name" name="name" required />
+          <label for="name">Nama Lengkap</label>
+          <input type="text" class="form-control" id="name" required />
         </div>
         <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" name="email" required />
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" required />
         </div>
         <div class="form-group">
-          <label for="service">Layanan:</label>
-          <select class="form-control" id="service" name="service" required>
-            <option value="les-anak">Les Anak</option>
-            <option value="sd-smp-sma">SD SMP SMA</option>
-            <option value="mahasiswa">Mahasiswa</option>
-            <option value="musik-dan-seni">Musik dan Seni</option>
-            <option value="bahasa">Bahasa</option>
+          <label for="phone">No Telepon</label>
+          <input type="tel" class="form-control" id="phone" required />
+        </div>
+        <div class="form-group">
+          <label for="service">Layanan yang Diminati</label>
+          <select class="form-control" id="service">
+            <option>Les Anak</option>
+            <option>SD SMP SMA</option>
+            <option>Mahasiswa</option>
+            <option>Musik dan Seni</option>
+            <option>Bahasa</option>
           </select>
         </div>
         <button type="submit" class="btn btn-primary">Daftar</button>
       </form>
     </section>
 
-    <section id="map" class="container">
-      <h2 class="section-title">Lokasi Kami</h2>
+    <section id="contact" class="container">
+      <h2 class="section-title">Kontak</h2>
+      <p>Hubungi kami untuk informasi lebih lanjut.</p>
       <div id="map"></div>
     </section>
 
-    <section id="contact" class="container">
-      <h2 class="section-title">Kontak</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <i class="fas fa-phone icon"></i>
-          <p>+62 123 456 789</p>
-        </div>
-        <div class="col-md-4">
-          <i class="fas fa-envelope icon"></i>
-          <p>info@company.com</p>
-        </div>
-        <div class="col-md-4">
-          <i class="fas fa-map-marker-alt icon"></i>
-          <p>Jalan Kebon Jeruk Raya No. 123, Jakarta</p>
-        </div>
-      </div>
-    </section>
-
     <footer class="footer text-center">
-      <p>&copy; 2024 Company. All Rights Reserved.</p>
-      <p>
-        Follow us on <a href="#"><i class="fab fa-facebook"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a>
-      </p>
+      <div class="container">
+        <p>&copy; 2024 Company. All rights reserved.</p>
+      </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
-    <script>
-      function initMap() {
-        var location = { lat: -6.2, lng: 106.816666 };
-        var map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 15,
-          center: location,
-        });
-        var marker = new google.maps.Marker({
-          position: location,
-          map: map,
-        });
-      }
-
-      document.getElementById("registerForm").addEventListener("submit", function (event) {
-        event.preventDefault();
-        alert("Pendaftaran berhasil!");
-      });
-    </script>
   </body>
 </html>
